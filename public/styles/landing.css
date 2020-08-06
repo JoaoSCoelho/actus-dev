@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background: rgb(0, 122, 204);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container {
+    height: 70%;
+    width: 70%;
+}
+
+#marca {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+img {
+    height: 50vh;
+}
+
+h1 {
+    display: inline-block;
+    font: 7rem Viga;
+    color: #ffffffc2;
+    margin: 0;
+}
+
+#container-button {
+    text-align: center;
+    width: 100%;
+    margin-top: 3rem;
+}
+  
+a {
+    padding: 1rem 7rem;
+    color: #ffffffc2;
+    text-decoration: none;
+    border-radius: 8rem;
+    font: 1.7rem Viga;
+    border: 5px solid #ffffffc2;
+}
+
+a:hover {
+    transition: 200ms;
+    background: #ffffffc2;
+    color: rgb(0, 122, 204);
+    border-color: transparent;
+}
