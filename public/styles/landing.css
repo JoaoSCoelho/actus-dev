@@ -6,19 +6,25 @@ html, body {
 }
 
 body {
-    background: rgb(0, 122, 204);
+    background: #192030;
 }
+
+
 
 main {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background: url('../images/background-landing.svg');
+    background-size: cover;
+    
 }
 
 #container {
     height: 70%;
     width: 70%;
+    z-index: 3;
 }
 
 #marca {
@@ -28,34 +34,82 @@ main {
 }
 
 img {
-    height: 50vh;
+    height: 60vh;
 }
 
 h1 {
     display: inline-block;
-    font: 7rem Viga;
-    color: #ffffffc2;
+    font: 5rem Viga;
+    color: #67aeff;
     margin: 0;
 }
 
-#container-button {
-    text-align: center;
-    width: 100%;
-    margin-top: 3rem;
+.barra {
+    background: #67aeff;
+    border-radius: 50rem;
+    height: 0.6rem;
+    width: 100px;
+    margin-bottom: 0.3rem;
+    display: inline-block;
+}
+
+#buttons {
+    text-align: center; 
 }
   
 a {
-    padding: 1rem 7rem;
-    color: #ffffffc2;
+    padding: 1rem 0;
+    color: #67aeff;
+    width: 30%;
+    min-width: 150px;
+    text-align: center;
     text-decoration: none;
     border-radius: 8rem;
     font: 1.7rem Viga;
-    border: 5px solid #ffffffc2;
+    border: 5px solid #67aeff;
+    display: inline-block;
 }
 
 a:hover {
     transition: 200ms;
-    background: #ffffffc2;
-    color: rgb(0, 122, 204);
+    background: #67aeff;
+    color: #192030;
     border-color: transparent;
+}
+
+@media (max-width: 1000px) {
+    main {
+        
+    }
+
+    #marca {
+        text-align: center;
+        display: block;
+    }
+    
+    h1 {
+        display: block;
+    }
+
+    img {
+        height: 30vh;
+    }
+
+    :root {
+        font-size: 0.5rem;
+    }
+
+    a {
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    img {
+        height: 25vh;
+    }
 }

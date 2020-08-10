@@ -1,0 +1,30 @@
+.background-icon {
+    position: absolute;
+    height: 30vh;
+}
+
+#back-1 {
+    right: 80px;
+    top: 60px;
+}
+
+#back-2 {
+    left: 50px;
+    top: 110px;
+}
+
+#back-3 {
+    top: 60px;
+    right: 400px;
+}
+
+#back-4 {
+    top: 350px;
+    left: 650px;
+    height: 20vh;
+}
+
+#back-5 {
+    bottom: 120px;
+    right: 60px;
+}
